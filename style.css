@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.instrucoes>.li{
+    text-align: justify;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #ff0000a4, #00000098); 
+}
+.instrucoes, p{
+    height: auto;
+    max-width: 500px;
+    min-width: 250px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    right: 0px;
+    top: 0px;
+}
+.sobre {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: right 0.5s ease, opacity 0.5s ease-in-out;
+}
+
+.cabecalho:hover .sobre{
+    right: 50px;
+    opacity: 1;
+}
+.sobre>ul>a>li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.icone{
+    border-radius: 50%;
+    width: 30px;
+}
