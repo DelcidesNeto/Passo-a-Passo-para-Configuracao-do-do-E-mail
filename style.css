@@ -17,6 +17,9 @@ body{
     border: 2px solid black;
     margin: 0 auto;
 }
+.instrucoes{
+    box-shadow: 2px 2px 1000px #ffff002a;
+}
 .logo{
     position: absolute;
     border-radius: 50%;
